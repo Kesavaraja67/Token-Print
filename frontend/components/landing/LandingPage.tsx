@@ -157,8 +157,7 @@ export function LandingPage() {
                 <Reveal delay={0.1} className="marshal-tile">
                   <MicroDotGridVisual />
                   <div className="marshal-tile-body">
-                    <h3 className="marshal-tile-title">01 — Real Model Execution</h3>
-                    <p className="marshal-tile-headline">See what the model actually computes.</p>
+                    <h3 className="marshal-tile-title">Real Model Execution</h3>
                     <p className="marshal-tile-copy">
                       Trace real transformer execution from input tokens through embeddings,
                       normalization, attention, MLPs, residual streams and logits.
@@ -179,8 +178,7 @@ export function LandingPage() {
                     </div>
                   </div>
                   <div className="marshal-tile-body">
-                    <h3 className="marshal-tile-title">02 — Every Tensor, Inspectable</h3>
-                    <p className="marshal-tile-headline">Follow representations at every stage.</p>
+                    <h3 className="marshal-tile-title">Every Tensor, Inspectable</h3>
                     <p className="marshal-tile-copy">
                       Inspect tensor shapes, parameters, hidden states, attention weights and
                       model metadata directly inside the computation.
@@ -197,8 +195,7 @@ export function LandingPage() {
                     </div>
                   </div>
                   <div className="marshal-tile-body">
-                    <h3 className="marshal-tile-title">03 — Token-by-Token Generation</h3>
-                    <p className="marshal-tile-headline">Watch generation unfold.</p>
+                    <h3 className="marshal-tile-title">Token-by-Token Generation</h3>
                     <p className="marshal-tile-copy">
                       Follow a token through the transformer during prefill and decode, with
                       KV-cache state and operation progress visible as inference runs.
@@ -220,8 +217,7 @@ export function LandingPage() {
                     />
                   </div>
                   <div className="marshal-tile-body">
-                    <h3 className="marshal-tile-title">04 — Attention, Decoded</h3>
-                    <p className="marshal-tile-headline">See how tokens interact.</p>
+                    <h3 className="marshal-tile-title">Attention Decoded</h3>
                     <p className="marshal-tile-copy">
                       Explore Q, K and V projections, grouped-query attention, RoPE, attention
                       scores and weighted values as the computation happens.
@@ -420,9 +416,9 @@ export function LandingPage() {
               <h4>COMMUNITY</h4>
               <ul>
                 <li><a href="https://github.com/Sudharsanselvaraj/Token-Print" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                <li><a href="https://x.com" target="_blank" rel="noopener noreferrer">X</a></li>
-                <li><a href="https://youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-                <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://x.com/sudharsan_sel" target="_blank" rel="noopener noreferrer">X</a></li>
+                <li><a href="mailto:tokenprint.in@gmail.com">Gmail</a></li>
+                <li><a href="https://www.linkedin.com/in/sudharsan-s-528a8a2a0/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
               </ul>
             </div>
           </div>
